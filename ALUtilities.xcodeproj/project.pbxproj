@@ -19,6 +19,13 @@
 		13B2C49518E090380058174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B2C47D18E090380058174E /* UIKit.framework */; };
 		13B2C49D18E090380058174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B2C49B18E090380058174E /* InfoPlist.strings */; };
 		13B2C49F18E090380058174E /* ALUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C49E18E090380058174E /* ALUtilitiesTests.m */; };
+		13B2C4B818E090A10058174E /* ALColorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4AA18E090A10058174E /* ALColorUtilities.m */; };
+		13B2C4B918E090A10058174E /* ALDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4AC18E090A10058174E /* ALDateUtilities.m */; };
+		13B2C4BA18E090A10058174E /* ALDevUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4AE18E090A10058174E /* ALDevUtilities.m */; };
+		13B2C4BB18E090A10058174E /* ALDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4B018E090A10058174E /* ALDrawingUtilities.m */; };
+		13B2C4BC18E090A10058174E /* ALImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4B218E090A10058174E /* ALImageUtilities.m */; };
+		13B2C4BD18E090A10058174E /* ALLayoutUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4B418E090A10058174E /* ALLayoutUtilities.m */; };
+		13B2C4BE18E090A10058174E /* ALStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C4B618E090A10058174E /* ALStringUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,22 @@
 		13B2C49A18E090380058174E /* ALUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
 		13B2C49C18E090380058174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13B2C49E18E090380058174E /* ALUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALUtilitiesTests.m; sourceTree = "<group>"; };
+		13B2C4A918E090A10058174E /* ALColorUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALColorUtilities.h; sourceTree = "<group>"; };
+		13B2C4AA18E090A10058174E /* ALColorUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALColorUtilities.m; sourceTree = "<group>"; };
+		13B2C4AB18E090A10058174E /* ALDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDateUtilities.h; sourceTree = "<group>"; };
+		13B2C4AC18E090A10058174E /* ALDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDateUtilities.m; sourceTree = "<group>"; };
+		13B2C4AD18E090A10058174E /* ALDevUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDevUtilities.h; sourceTree = "<group>"; };
+		13B2C4AE18E090A10058174E /* ALDevUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDevUtilities.m; sourceTree = "<group>"; };
+		13B2C4AF18E090A10058174E /* ALDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDrawingUtilities.h; sourceTree = "<group>"; };
+		13B2C4B018E090A10058174E /* ALDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDrawingUtilities.m; sourceTree = "<group>"; };
+		13B2C4B118E090A10058174E /* ALImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALImageUtilities.h; sourceTree = "<group>"; };
+		13B2C4B218E090A10058174E /* ALImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALImageUtilities.m; sourceTree = "<group>"; };
+		13B2C4B318E090A10058174E /* ALLayoutUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLayoutUtilities.h; sourceTree = "<group>"; };
+		13B2C4B418E090A10058174E /* ALLayoutUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLayoutUtilities.m; sourceTree = "<group>"; };
+		13B2C4B518E090A10058174E /* ALStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALStringUtilities.h; sourceTree = "<group>"; };
+		13B2C4B618E090A10058174E /* ALStringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALStringUtilities.m; sourceTree = "<group>"; };
+		13B2C4B718E090A10058174E /* ALUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALUtilities.h; sourceTree = "<group>"; };
+		13B2C4BF18E091670058174E /* ALLayoutObjectWithOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLayoutObjectWithOffset.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +130,7 @@
 		13B2C47F18E090380058174E /* ALUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				13B2C4A818E090420058174E /* Source */,
 				13B2C48818E090380058174E /* ALAppDelegate.h */,
 				13B2C48918E090380058174E /* ALAppDelegate.m */,
 				13B2C48B18E090380058174E /* Images.xcassets */,
@@ -142,6 +166,29 @@
 				13B2C49B18E090380058174E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B2C4A818E090420058174E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				13B2C4BF18E091670058174E /* ALLayoutObjectWithOffset.h */,
+				13B2C4A918E090A10058174E /* ALColorUtilities.h */,
+				13B2C4AA18E090A10058174E /* ALColorUtilities.m */,
+				13B2C4AB18E090A10058174E /* ALDateUtilities.h */,
+				13B2C4AC18E090A10058174E /* ALDateUtilities.m */,
+				13B2C4AD18E090A10058174E /* ALDevUtilities.h */,
+				13B2C4AE18E090A10058174E /* ALDevUtilities.m */,
+				13B2C4AF18E090A10058174E /* ALDrawingUtilities.h */,
+				13B2C4B018E090A10058174E /* ALDrawingUtilities.m */,
+				13B2C4B118E090A10058174E /* ALImageUtilities.h */,
+				13B2C4B218E090A10058174E /* ALImageUtilities.m */,
+				13B2C4B318E090A10058174E /* ALLayoutUtilities.h */,
+				13B2C4B418E090A10058174E /* ALLayoutUtilities.m */,
+				13B2C4B518E090A10058174E /* ALStringUtilities.h */,
+				13B2C4B618E090A10058174E /* ALStringUtilities.m */,
+				13B2C4B718E090A10058174E /* ALUtilities.h */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B2C4BB18E090A10058174E /* ALDrawingUtilities.m in Sources */,
 				13B2C48618E090380058174E /* main.m in Sources */,
+				13B2C4BE18E090A10058174E /* ALStringUtilities.m in Sources */,
+				13B2C4BC18E090A10058174E /* ALImageUtilities.m in Sources */,
+				13B2C4B818E090A10058174E /* ALColorUtilities.m in Sources */,
 				13B2C48A18E090380058174E /* ALAppDelegate.m in Sources */,
+				13B2C4BD18E090A10058174E /* ALLayoutUtilities.m in Sources */,
+				13B2C4B918E090A10058174E /* ALDateUtilities.m in Sources */,
+				13B2C4BA18E090A10058174E /* ALDevUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
